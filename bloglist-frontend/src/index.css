@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  font-family: 'Mukta', sans-serif;
+}
+
+h1, h2, h3 {
+  margin-bottom: 5px;
+}
+
+button {
+  background: whitesmoke;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-color: lightgray;
+}
+
+button:hover {
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+ul {
+  padding-inline-start: 18px;
+}
+
+.notification-container {
+  height: 0px;
+}
+
+.notification {
+  font-size: 16px;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 2px;
+  background: whitesmoke;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+
+.header {
+  margin-left: 5px;
+}
+
+.navigation {
+  background-color: rgb(189, 186, 186);
+  height: 35px;
+}
+
+.navigation-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.login input {
+  width: 140px;
+}
+
+.login span {
+  min-width: 25px;
+}
+
+.login-form {
+  margin-left: 10px;
+}
+
+.user-form {
+  margin-left: 10px;
+}
+
+.blog {
+  width: max-content;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-color: rgb(216, 210, 210);
+}
+
+.blogs-list {
+  margin-left: 5px;
+}
+.submitted-by {
+  color: rgb(30, 30, 47);
+  font-size: 14px;
+}
+
+.blog-view {
+  margin-left: 5px;
+}
+
+.users-view {
+  margin-left: 5px;
+
+}
+
+.user-view {
+  margin-left: 5px;
+}
+
+.logout {
+  color: rgb(76, 76, 76);
+  font-style: italic;
+  font-size: 12px
+}
+
+.logout button {
+  border-color: lightgray;
+}
+
+.logout button:hover {
+  background-color: rgb(252, 214, 210);
+}
+
+.togglable {
+  margin-bottom: 2px;
+}
+
+.togglable button {
+  margin-left: 0px;
+}
+
+._401 {
+  color: rgb(185, 13, 13);
+}
+
+._404 {
+  color: rgb(185, 13, 13);
+}
+
+._200 {
+  color: rgb(13, 81, 13);
+}
+
+._201 {
+  color: rgb(13, 81, 13);
+}
